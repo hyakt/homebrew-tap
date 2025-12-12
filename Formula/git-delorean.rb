@@ -1,13 +1,13 @@
 class GitDelorean < Formula
   desc "TUI to browse a single file's Git history"
   homepage "https://github.com/hyakt/git-delorean"
-  version "0.1.0"
+  version "0.1.1"
   license :unknown
   head "https://github.com/hyakt/git-delorean.git", branch: "main"
 
   on_macos do
-    url "https://github.com/hyakt/git-delorean/releases/download/v0.1.0/git-delorean-0.1.0-macos-x86_64.tar.gz"
-    sha256 "1bc60cde0ef1897f9c8dccf51c0540e4a16214fe2a9c570e93e7a5a8fc6bd88f"
+    url "https://github.com/hyakt/git-delorean/releases/download/v0.1.1/git-delorean-0.1.1-macos-x86_64.tar.gz"
+    sha256 "a6aed00bcbf69a0982b4f1733ff8aff7704b684139b2bbb03149d24f476bffac"
 
     def install
       bin.install "git-delorean"
@@ -15,8 +15,8 @@ class GitDelorean < Formula
   end
 
   on_linux do
-    url "https://github.com/hyakt/git-delorean/releases/download/v0.1.0/git-delorean-0.1.0-linux-x86_64.tar.gz"
-    sha256 "c826cc2f1da79c565dc3090b0625e647fee1d5015c2de9c148237b76a55f5509"
+    url "https://github.com/hyakt/git-delorean/releases/download/v0.1.1/git-delorean-0.1.1-linux-x86_64.tar.gz"
+    sha256 "5f21a353b2f88590f144311982008c27e9d21d360fbbb66e51003d0e895d5e73"
 
     def install
       bin.install "git-delorean"
